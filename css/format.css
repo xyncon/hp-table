@@ -1,0 +1,51 @@
+  * {
+      font-family: "courier new";
+    }
+  table{
+    border-collapse: collapse;
+  }
+  tr {
+    padding: 0;
+    margin: 0;
+  }
+  td {
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid yellow;
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-weight: bold;
+    line-height: 0;
+  }
+  h2 {
+    font-weight: 100;
+    line-height: 0;
+  }
+  h3 {
+    line-height: 83px;
+  }
+  i {
+    font-size: 34px;
+  }
+  .all {
+    color: #F2F2F2;
+    background-color: #2E2E2E;
+  }
+  .center {
+    width: 100%;
+  }
+  .content {
+    background-color: #FF8000;
+  }
+  .active {
+    color: #FF8000;
+  }
+  .hover {
+    color: #FF8000;
+    cursor: pointer;
+  }
+  .activehover {
+    cursor: pointer;
+  }
