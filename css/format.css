@@ -11,7 +11,7 @@
   td {
     vertical-align: middle;
     text-align: left;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;/*GRID FOR LAYOUT*/
     padding: 0;
     margin: 0;
   }
@@ -48,4 +48,10 @@
   }
   .activehover {
     cursor: pointer;
+  }
+  .on {
+    visibility: visible;
+  }
+  .off {
+    visibility: hidden;
   }

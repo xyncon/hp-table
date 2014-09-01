@@ -7,6 +7,10 @@ jQuery(document).ready(function($) {
     $(".skills").removeClass("active");
     $(".contact").removeClass("active");
     $(".imprint").removeClass("active");
+    $(".home-indicator").css("visibility", "visible")
+    $(".vita-indicator").css("visibility", "hidden")
+    $(".skills-indicator").css("visibility", "hidden")
+    $(".contact-indicator").css("visibility", "hidden")
   });
 
   $(".vita").click(function() {
@@ -16,6 +20,10 @@ jQuery(document).ready(function($) {
     $(".skills").removeClass("active");
     $(".contact").removeClass("active");
     $(".imprint").removeClass("active");
+    $(".home-indicator").css("visibility", "hidden")
+    $(".vita-indicator").css("visibility", "visible")
+    $(".skills-indicator").css("visibility", "hidden")
+    $(".contact-indicator").css("visibility", "hidden")
   });
 
   $(".skills").click(function() {
@@ -25,6 +33,10 @@ jQuery(document).ready(function($) {
     $(this).addClass("active activehover");
     $(".contact").removeClass("active");
     $(".imprint").removeClass("active");
+    $(".home-indicator").css("visibility", "hidden")
+    $(".vita-indicator").css("visibility", "hidden")
+    $(".skills-indicator").css("visibility", "visible")
+    $(".contact-indicator").css("visibility", "hidden")
   });
 
   $(".contact").click(function() {
@@ -34,6 +46,10 @@ jQuery(document).ready(function($) {
     $(".skills").removeClass("active");
     $(this).addClass("active activehover");
     $(".imprint").removeClass("active");
+    $(".home-indicator").css("visibility", "hidden")
+    $(".vita-indicator").css("visibility", "hidden")
+    $(".skills-indicator").css("visibility", "hidden")
+    $(".contact-indicator").css("visibility", "visible")
   });
 
   $(".imprint").click(function() {
@@ -43,6 +59,10 @@ jQuery(document).ready(function($) {
     $(".skills").removeClass("active");
     $(".contact").removeClass("active");
     $(this).addClass("active activehover");
+    $(".home-indicator").css("visibility", "hidden")
+    $(".vita-indicator").css("visibility", "hidden")
+    $(".skills-indicator").css("visibility", "hidden")
+    $(".contact-indicator").css("visibility", "hidden")
   });
 
   $( ".home" ).hover(
