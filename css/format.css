@@ -1,6 +1,8 @@
-  * {
-      font-family: "courier new";
-    }
+  html {
+    background: url(../img/carbon.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: "courier new";
+  }
   table{
     border-collapse: collapse;
   }
@@ -30,14 +32,22 @@
     font-size: 34px;
   }
   .all {
+    margin: auto;
     color: #F2F2F2;
     background-color: #2E2E2E;
-  }
-  .center {
-    width: 100%;
+    text-align: center;
   }
   .content {
     background-color: #FF8000;
+    text-align: center;
+    width: 636px;
+    height: 480px;
+  }
+  .frame {
+    width: 18px;
+  }
+  .align-right {
+    text-align: right
   }
   .active {
     color: #FF8000;
